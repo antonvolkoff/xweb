@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A56620D15279ADF004A4E00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A56620C15279ADF004A4E00 /* main.cpp */; };
+		3A56621515284904004A4E00 /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A56621315284904004A4E00 /* mongoose.c */; };
+		3A56621615284904004A4E00 /* mongoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A56621415284904004A4E00 /* mongoose.h */; };
+		3A56621915285675004A4E00 /* ApplicationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A56621815285675004A4E00 /* ApplicationController.h */; };
+		3A56621B1528577E004A4E00 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A56621A1528577E004A4E00 /* main.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5661FC15279A95004A4E00 /* mac.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = mac.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A56620C15279ADF004A4E00 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		3A56621315284904004A4E00 /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mongoose.c; sourceTree = "<group>"; };
+		3A56621415284904004A4E00 /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongoose.h; sourceTree = "<group>"; };
+		3A56621815285675004A4E00 /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationController.h; path = src/controllers/ApplicationController.h; sourceTree = SOURCE_ROOT; };
+		3A56621A1528577E004A4E00 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = src/main.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A5661F915279A95004A4E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A5661F115279A94004A4E00 = {
+			isa = PBXGroup;
+			children = (
+				3A5661FE15279A95004A4E00 /* XWeb */,
+				3A5661FD15279A95004A4E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A5661FD15279A95004A4E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A5661FC15279A95004A4E00 /* mac.xpl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A5661FE15279A95004A4E00 /* XWeb */ = {
+			isa = PBXGroup;
+			children = (
+				3A56621715285638004A4E00 /* controllers */,
+				3A56621215284904004A4E00 /* mongoose */,
+				3A56620C15279ADF004A4E00 /* main.cpp */,
+				3A56621A1528577E004A4E00 /* main.h */,
+			);
+			path = XWeb;
+			sourceTree = "<group>";
+		};
+		3A56621215284904004A4E00 /* mongoose */ = {
+			isa = PBXGroup;
+			children = (
+				3A56621315284904004A4E00 /* mongoose.c */,
+				3A56621415284904004A4E00 /* mongoose.h */,
+			);
+			name = mongoose;
+			path = src/mongoose;
+			sourceTree = SOURCE_ROOT;
+		};
+		3A56621715285638004A4E00 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A56621815285675004A4E00 /* ApplicationController.h */,
+			);
+			name = controllers;
+			path = src/controller;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A5661FA15279A95004A4E00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A56621615284904004A4E00 /* mongoose.h in Headers */,
+				3A56621915285675004A4E00 /* ApplicationController.h in Headers */,
+				3A56621B1528577E004A4E00 /* main.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A5661FB15279A95004A4E00 /* XWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A56620915279A95004A4E00 /* Build configuration list for PBXNativeTarget "XWeb" */;
+			buildPhases = (
+				3A5661F815279A95004A4E00 /* Sources */,
+				3A5661F915279A95004A4E00 /* Frameworks */,
+				3A5661FA15279A95004A4E00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWeb;
+			productName = XWeb;
+			productReference = 3A5661FC15279A95004A4E00 /* mac.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A5661F315279A94004A4E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3A5661F615279A94004A4E00 /* Build configuration list for PBXProject "XWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A5661F115279A94004A4E00;
+			productRefGroup = 3A5661FD15279A95004A4E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A5661FB15279A95004A4E00 /* XWeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A5661F815279A95004A4E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A56620D15279ADF004A4E00 /* main.cpp in Sources */,
+				3A56621515284904004A4E00 /* mongoose.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A56620715279A95004A4E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A56620815279A95004A4E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A56620A15279A95004A4E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "/Users/anton/Documents/X-Plane9/Resources/plugins/xweb";
+				CONFIGURATION_TEMP_DIR = "/Users/anton/Documents/X-Plane9/Resources/plugins/xweb";
+				EXECUTABLE_EXTENSION = xpl;
+				GCC_PREPROCESSOR_DEFINITIONS = "APL=1";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = /Users/anton/Dropbox/Coding/XWeb/src/XPLM;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					warning,
+					"-flat_namespace",
+				);
+				PRODUCT_NAME = mac;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		3A56620B15279A95004A4E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "/Users/anton/Documents/X-Plane9/Resources/plugins/xweb";
+				CONFIGURATION_TEMP_DIR = "/Users/anton/Documents/X-Plane9/Resources/plugins/xweb";
+				EXECUTABLE_EXTENSION = xpl;
+				GCC_PREPROCESSOR_DEFINITIONS = "APL=1";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = /Users/anton/Dropbox/Coding/XWeb/src/XPLM;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					warning,
+					"-flat_namespace",
+				);
+				PRODUCT_NAME = mac;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A5661F615279A94004A4E00 /* Build configuration list for PBXProject "XWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A56620715279A95004A4E00 /* Debug */,
+				3A56620815279A95004A4E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A56620915279A95004A4E00 /* Build configuration list for PBXNativeTarget "XWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A56620A15279A95004A4E00 /* Debug */,
+				3A56620B15279A95004A4E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A5661F315279A94004A4E00 /* Project object */;
+}
